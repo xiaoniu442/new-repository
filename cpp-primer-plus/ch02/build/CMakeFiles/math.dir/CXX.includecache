@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/math.h
+
+/home/ranye/cpp-primer-plus/ch02/src/math.cpp
+math.h
+/home/ranye/cpp-primer-plus/ch02/src/math.h
+
